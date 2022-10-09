@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Typecho 0.9/13.12.12\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2022-10-10 01:26+0300\n"
+"PO-Revision-Date: 2022-10-10 01:36+0300\n"
 "Last-Translator: Onur Kahveci <onurkahveci@gmail.com>\n"
 "Language-Team: \n"
 "Language: tr_TR\n"
@@ -1116,7 +1116,7 @@ msgid "时间"
 msgstr "Zaman"
 
 msgid "时"
-msgstr "saat"
+msgstr "Saat"
 
 msgid "上午"
 msgstr "öğleden önce"
@@ -1125,7 +1125,7 @@ msgid "下午"
 msgstr "öğleden sonra"
 
 msgid "分"
-msgstr "dk"
+msgstr "Dakika"
 
 msgid "秒"
 msgstr "sn"
@@ -1333,13 +1333,13 @@ msgid "%s 发布的文章"
 msgstr "%s yayınlanmış gönderiler"
 
 msgid "作者: "
-msgstr ""
+msgstr "Yazar: "
 
 msgid "时间: "
-msgstr ""
+msgstr "Tarih:"
 
 msgid "分类: "
-msgstr ""
+msgstr "Kategori: "
 
 msgid "没有找到内容"
 msgstr "İçerik bulunamadı"
@@ -1348,18 +1348,16 @@ msgid "暂无评论"
 msgstr "Henüz bir yorum yok."
 
 msgid "仅有一条评论"
-msgstr "Sadece bir yorum."
+msgstr "Sadece bir yorum"
 
 msgid "已有 %d 条评论"
-msgstr "%d yorum."
+msgstr "%d yorum"
 
 msgid "添加新评论"
 msgstr "Yeni bir yorum ekle"
 
-#, fuzzy
-#| msgid "登录身份："
 msgid "登录身份: "
-msgstr "Şu şekilde giriş yap:"
+msgstr "Şu isimle giriş yapıldı: "
 
 msgid "退出"
 msgstr "Çıkış"
@@ -1371,7 +1369,7 @@ msgid "http://"
 msgstr "http://"
 
 msgid "提交评论"
-msgstr "Yorum Gönder."
+msgstr "Yorumu gönder"
 
 msgid "评论已关闭"
 msgstr "Yorumlar devre dışı bırakılmış."
@@ -1420,7 +1418,7 @@ msgid "首页"
 msgstr "Anasayfa"
 
 msgid "标签: "
-msgstr ""
+msgstr "Etiketler: "
 
 msgid "最新文章"
 msgstr "Son Gönderiler"
