@@ -16,14 +16,14 @@ function themeConfig($form)
     $sidebarBlock = new \Typecho\Widget\Helper\Form\Element\Checkbox(
         'sidebarBlock',
         [
-            'ShowRecentPosts'    => _t('显示最新文章'),
-            'ShowRecentComments' => _t('显示最近回复'),
-            'ShowCategory'       => _t('显示分类'),
-            'ShowArchive'        => _t('显示归档'),
-            'ShowOther'          => _t('显示其它杂项')
+            'ShowRecentPosts'    => _t('Son gönderileri göster'),
+            'ShowRecentComments' => _t('Son yanıtları göster'),
+            'ShowCategory'       => _t('Kategorileri göster'),
+            'ShowArchive'        => _t('Arşivi göster'),
+            'ShowOther'          => _t('Diğerlerini göster')
         ],
         ['ShowRecentPosts', 'ShowRecentComments', 'ShowCategory', 'ShowArchive', 'ShowOther'],
-        _t('侧边栏显示')
+        _t('Kenar çubuğu ekranı')
     );
 
     $form->addInput($sidebarBlock->multiMode());

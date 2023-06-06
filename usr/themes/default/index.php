@@ -16,29 +16,27 @@ $this->need('header.php');
     <?php while ($this->next()): ?>
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
             <h2 class="post-title" itemprop="name headline">
-                <a itemprop="url"
-                   href="<?php $this->permalink() ?>"><?php $this->title() ?></a>
+                <a itemprop="url" href="<?php $this->permalink() ?>"><?php $this->title() ?></a>
             </h2>
             <ul class="post-meta">
-                <li itemprop="author" itemscope itemtype="http://schema.org/Person"><?php _e('作者: '); ?><a
+                <li itemprop="author" itemscope itemtype="http://schema.org/Person"><?php _e('Yazar: '); ?><a
                         itemprop="name" href="<?php $this->author->permalink(); ?>"
                         rel="author"><?php $this->author(); ?></a></li>
-                <li><?php _e('时间: '); ?>
+                <li><?php _e('Tarih: '); ?>
                     <time datetime="<?php $this->date('c'); ?>" itemprop="datePublished"><?php $this->date(); ?></time>
                 </li>
-                <li><?php _e('分类: '); ?><?php $this->category(','); ?></li>
+                <li><?php _e('Kategori: '); ?><?php $this->category(','); ?></li>
                 <li itemprop="interactionCount">
-                    <a itemprop="discussionUrl"
-                       href="<?php $this->permalink() ?>#comments"><?php $this->commentsNum('Yorumlar', '1 yorum', '%d yorum'); ?></a>
+                    <a itemprop="discussionUrl" href="<?php $this->permalink() ?>#comments"><?php $this->commentsNum('Yorumlar', '1 yorum', '%d yorum'); ?></a>
                 </li>
             </ul>
             <div class="post-content" itemprop="articleBody">
-                <?php $this->content('- 阅读剩余部分 -'); ?>
+                <?php $this->content('- Devamını okuyun -'); ?>
             </div>
         </article>
     <?php endwhile; ?>
 
-    <?php $this->pageNav('&laquo; 前一页', '后一页 &raquo;'); ?>
+    <?php $this->pageNav('&laquo; Önceki', 'Sonraki &raquo;'); ?>
 </div><!-- end #main-->
 
 <?php $this->need('sidebar.php'); ?>
